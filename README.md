@@ -111,8 +111,8 @@ The three bytes encoded in hex as `4a5e1e`:
 ┗━━━━┛┗━━┛
 ```
 
-Filled cells are represented as solid squares, and empty cells as empty
-squares. Character borders can be included or omitted.
+Filled cells are represented as solid squares, and empty cells as small dots.
+This prevents empty cells from rendering as blanks.
 
 Fonts for datacode characters are easy to produce, since all characters can be
 generated programmatically. Presumably, not all fonts would include datacode
