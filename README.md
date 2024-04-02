@@ -119,6 +119,10 @@ generated programmatically. Presumably, not all fonts would include datacode
 characters, and rendering would be handled by a specialized fallback font for
 the code point ranges.
 
+To allow for easier visual comparison of datacode strings, each column can be
+rendered in one of sixteen colors, ord column pair in one of 256 colors,
+depending on its value.
+
 applications
 ------------
 
