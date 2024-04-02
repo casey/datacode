@@ -6,11 +6,12 @@ text.
 
 It proposes allocating the 65,536 Unicode plane four code points,
 U+40000–4FFFF, to visual representations of all possible 16-bit values, and
-code points 1FF00–1FFFF to visual representations of all possible 8-bit values.
+code points U+1FF00–1FFFF to visual representations of all possible 8-bit
+values.
 
 These two character ranges would allow visually compact plain-text
 representations of binary data. With code points U+40000–4FFFF the leading
-pairs of bytes, with an optional 1FF00–1FFFF code point for the last byte, if
+pairs of bytes, with an optional U+1FF00–1FFFF code point for the last byte, if
 the number of bytes is odd.
 
 motivation
