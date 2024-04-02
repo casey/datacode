@@ -151,3 +151,9 @@ select the entire contiguous sequence of datacode characters.
 
 Datacode could also improve accessibility, by clearly delineating
 human-readable text from text representations of binary data.
+
+encoding
+--------
+
+Encoding and decoding is straightforward. A [Rust implementation](src/lib.rs)
+is provided.
