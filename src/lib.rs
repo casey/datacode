@@ -1,6 +1,6 @@
 //! Datacode encoding and decoding.
 
-/// encode byte slice to datacode string
+/// Encode byte slice to datacode string
 pub fn encode(bytes: &[u8]) -> String {
   let mut datacode = String::new();
   for chunk in bytes.chunks(2) {
@@ -17,7 +17,7 @@ pub fn encode(bytes: &[u8]) -> String {
   datacode
 }
 
-/// decode datacode string to byte vector
+/// Decode datacode string to byte vector
 pub fn decode(datacode: &str) -> Result<Vec<u8>, String> {
   let mut bytes = Vec::new();
   for c in datacode.chars() {
