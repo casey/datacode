@@ -123,6 +123,11 @@ To allow for easier visual comparison of datacode strings, each column can be
 rendered in one of sixteen colors, ord column pair in one of 256 colors,
 depending on its value.
 
+It may be advantageous to instead represent paircodes as two-by-two grids of
+small hexidecimal digits, and bytecodes as one-by-two grids of hexidecimal
+digits, to allow datacode values to be read and transliterated to hexidecimal
+by humans.
+
 applications
 ------------
 
