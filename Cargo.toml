@@ -1,6 +1,8 @@
 [package]
 name = "datacode"
+description = "visually compact binary-to-text encoding"
 version = "0.0.0"
+license = "CC0-1.0"
 edition = "2021"
 
 [dependencies]
